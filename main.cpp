@@ -225,7 +225,7 @@ void greedy(int score[2][16][16], BMP InImg[16], BMP & OutImg) {
                   copy(InImg[r], OutImg , x,y);
              }
          }
-     }*/ //Well, that sucked. This will be hetter.
+     }*/ //Well, that sucked. This will be better.
     bool remaining[16];
     for(int i = 0; i <16; ++i) {
       remaining[i] = true;
